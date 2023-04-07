@@ -16,9 +16,9 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/Notice" element={<Notice />} />
-          <Route path="/Setting" element={<Setting />} />
+          <Route exact path="/" element={<Main />} />
+          <Route exact path="/Notice" element={<Notice />} />
+          <Route exact path="/Setting" element={<Setting />} />
         </Routes>
       </BrowserRouter>
     </>
