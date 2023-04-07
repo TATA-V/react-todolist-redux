@@ -16,9 +16,9 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Main />} />
-          <Route exact path="/Notice" element={<Notice />} />
-          <Route exact path="/Setting" element={<Setting />} />
+          <Route path={process.env.PUBLIC_URL + "/"} element={<Main />} />
+          <Route path={process.env.PUBLIC_URL + "/notice"} element={<Notice />} />
+          <Route path={process.env.PUBLIC_URL + "/setting"} element={<Setting />} />
         </Routes>
       </BrowserRouter>
     </>

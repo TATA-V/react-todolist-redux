@@ -60,17 +60,17 @@ const TodoFootMain = () => {
     <TodoFootBlock>
       <div className="iconAll">
         <div className="menu-icon">
-          <StyledLink to="/">
+          <StyledLink to={process.env.PUBLIC_URL + "/"}>
             <i className="i-menu-blue-icon" />
           </StyledLink>
         </div>
         <div className="noti-icon">
-          <StyledLink to="/Notice">
+          <StyledLink to={process.env.PUBLIC_URL + "/notice"}>
             <i className="i-notice-icon" />
           </StyledLink>
         </div>
         <div className="setting-icon">
-          <StyledLink to="/Setting">
+          <StyledLink to={process.env.PUBLIC_URL + "/setting"}>
             <i className="i-setting-icon" />
           </StyledLink>
         </div>

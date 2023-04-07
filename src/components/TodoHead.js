@@ -26,7 +26,7 @@ const StyledLink = styled(Link)`
 const TodoHead = () => {
   return (
     <TodoHeadBlock>
-      <StyledLink to="/">
+      <StyledLink to={process.env.PUBLIC_URL + "/"}>
         <img className="logo" src={logoImg} alt="logo" />
       </StyledLink>
     </TodoHeadBlock>
