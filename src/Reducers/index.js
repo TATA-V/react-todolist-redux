@@ -1,5 +1,5 @@
 import { initialState } from "./initialState";
-import { CREATE, REMOVE, TOGGLE, DOING_FILTER, COMPLE_FILTER, CHANGE_TEXT } from "../Actions/action"; // SET_FILTER
+import { CREATE, REMOVE, TOGGLE, DOING_FILTER, COMPLE_FILTER, CHANGE_TEXT } from "../Actions/action";
 
 export const todoReducer = (state = initialState, action) => {
   switch (action.type) {

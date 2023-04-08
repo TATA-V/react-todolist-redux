@@ -141,7 +141,7 @@ const TodoItem = ({ id, text, done }) => {
     setTxt(e.target.value);
   };
 
-  const hanbleDoubleClick = () => {
+  const handleClick = () => {
     setIsEditable(true);
   };
 
@@ -163,7 +163,7 @@ const TodoItem = ({ id, text, done }) => {
           <input ref={inputRef} type="text" placeholder={text} onChange={handleChange} autoFocus></input>
         </ChangeForm>
       ) : (
-        <Text onDoubleClick={hanbleDoubleClick} done={done}>
+        <Text onClick={handleClick} done={done}>
           {text}
         </Text>
       )}
