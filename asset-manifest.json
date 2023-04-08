@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-todolist-redux/static/css/main.fc4175b6.css",
-    "main.js": "/react-todolist-redux/static/js/main.ed77db48.js",
+    "main.js": "/react-todolist-redux/static/js/main.20dfb7b0.js",
     "static/media/page-bg.png": "/react-todolist-redux/static/media/page-bg.164cced9a60cb5f08e4a.png",
     "static/media/appear-bt21.svg": "/react-todolist-redux/static/media/appear-bt21.4d76c6daa27990e1ce23b8fe88ab2bfb.svg",
     "static/media/appear-wish.svg": "/react-todolist-redux/static/media/appear-wish.e7ed1c8c8eb43b586060bdb01008efcc.svg",
@@ -20,10 +20,10 @@
     "static/media/trash-icon.svg": "/react-todolist-redux/static/media/trash-icon.663640ad7d4299f0c903527b50c566ac.svg",
     "static/media/profile-img.svg": "/react-todolist-redux/static/media/profile-img.9a9fc89109966bdbe39a1960d345ec32.svg",
     "main.fc4175b6.css.map": "/react-todolist-redux/static/css/main.fc4175b6.css.map",
-    "main.ed77db48.js.map": "/react-todolist-redux/static/js/main.ed77db48.js.map"
+    "main.20dfb7b0.js.map": "/react-todolist-redux/static/js/main.20dfb7b0.js.map"
   },
   "entrypoints": [
     "static/css/main.fc4175b6.css",
-    "static/js/main.ed77db48.js"
+    "static/js/main.20dfb7b0.js"
   ]
 }
