@@ -5,7 +5,8 @@ import logoImg from "../assets/logo.svg";
 const TodoHeadBlock = styled.div`
   width: 380px;
   height: 67px;
-  background-color: #2a313b;
+  /* background-color: #2a313b; */
+  background-color: #fff;
   border-radius: 15px 15px 0 0;
   border-bottom: solid 1px #242b35;
 
