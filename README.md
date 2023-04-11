@@ -1,6 +1,8 @@
-## 배포 링크
+## TATA's Todo App
 
-https://tata-v.github.io/react-todolist-redux/
+Todo 관리를 위한 app입니다.
+
+### 배포 링크 : https://tata-v.github.io/react-todolist-redux/
 
 ---
 

@@ -11,7 +11,6 @@ const TodoHeadBlock = styled.div`
 
   .logo {
     width: 179.7px;
-    /* height: 42px; */
     display: flex;
     justify-content: center;
     align-items: center;
