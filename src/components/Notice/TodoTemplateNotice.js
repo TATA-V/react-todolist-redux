@@ -2,6 +2,14 @@ import styled from "styled-components";
 import pageBg from "../../assets/page-bg-2.png";
 
 const TodoTemplateBlock = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+`;
+
+const RealTemplateBlock = styled.div`
   width: 380px;
   height: 831px;
 
@@ -20,7 +28,11 @@ const TodoTemplateBlock = styled.div`
 `;
 
 const TodoTemplateNotice = ({ children }) => {
-  return <TodoTemplateBlock>{children}</TodoTemplateBlock>;
+  return (
+    <TodoTemplateBlock>
+      <RealTemplateBlock>{children}</RealTemplateBlock>
+    </TodoTemplateBlock>
+  );
 };
 
 export default TodoTemplateNotice;

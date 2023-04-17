@@ -2,6 +2,14 @@ import styled from "styled-components";
 import pageBg from "../../assets/page-bg.png";
 
 const TodoTemplateBlock = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+`;
+
+const RealTemplateBlock = styled.div`
   width: 380px;
   height: 831px;
 
@@ -11,7 +19,6 @@ const TodoTemplateBlock = styled.div`
 
   display: flex;
   flex-direction: column;
-  margin: 80px auto 80px auto;
   overflow: hidden;
 
   background: url("${pageBg}");
@@ -19,7 +26,11 @@ const TodoTemplateBlock = styled.div`
 `;
 
 const TodoTemplateMain = ({ children }) => {
-  return <TodoTemplateBlock>{children}</TodoTemplateBlock>;
+  return (
+    <TodoTemplateBlock>
+      <RealTemplateBlock>{children}</RealTemplateBlock>
+    </TodoTemplateBlock>
+  );
 };
 
 export default TodoTemplateMain;

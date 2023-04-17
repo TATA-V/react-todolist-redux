@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import logoImg from "../assets/logo.svg";
 
-const TodoHeadBlock = styled.div`
+const TodoHeadBlock = styled.header`
   width: 380px;
   height: 67px;
   background-color: #2a313b;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const TodoFootBlock = styled.div`
+const TodoFootBlock = styled.footer`
   width: 380px;
   height: 67px;
   background-color: #2a313b;
