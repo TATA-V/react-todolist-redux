@@ -1,6 +1,6 @@
-## TATA's Todo App
+## TATA's Todo-List
 
-Todo 관리를 위한 app입니다.
+Todo 관리를 위한 Todo-List
 
 ### 배포 링크 : https://tata-v.github.io/react-todolist-redux/
 
